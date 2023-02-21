@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem;
+  background-color: rgb(120, 106, 67);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.cElements {
+  background-color: rgb(204, 180, 114);
+  border-radius: 9rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+}
+
+.line {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 100%;
+  height: 0.1rem;
+  background-color: rgba(193, 95, 49, 0.986);
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+.card {
+  border: rgb(0, 0, 0) solid;
+  border-radius: 1em;
+  color: rgb(255, 255, 255);
+  max-width: 20rem;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(178, 104, 61, 0.918);
+}
+.CardImage {
+  position: relative;
+  height: 15rem;
+}
+.CardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card .container {
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
